@@ -1,0 +1,58 @@
+/* parser_test.rlx
+ *
+ * This file contains test lines for the rouleaux_parser
+ */
+
+
+my_var : float = 30.0;
+{
+    if (my_var > 5.0)
+        my_var = 20.0;
+}
+
+
+func_name :: (a1: int, a2: float) -> int {
+    //statements...
+};
+
+// TODO(Steven): function parameters with same name will produce an error
+//func2 :: (a1: float) -> int {};
+
+no_params :: () -> int {
+    //call my_var(5, 3.7);
+    call func_name(5, 3.7);
+};
+
+func_return :: func_name(3, 3.0) - no_params() + 5;
+
+while (my_var < 30.0)
+{
+    new_var := my_var - 1.0;
+}
+
+my_other_var := 6 / (4 + 6) * 5;
+
+my_const :: (123 * 2);
+//my_const = 1;
+
+my_string :: "Hello World!";
+
+if (6 * 5) {
+    my_if_var :: 2;
+} else {
+    my_else_var := 5;
+}
+
+expr :: 1;
+
+if (expr)
+    new_expr := 7.0;
+else if (expr * 7)
+    other_expr :: 2;
+else
+    last_expr :: 1;
+
+
+
+
+

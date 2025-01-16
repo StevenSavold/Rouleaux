@@ -1,0 +1,23 @@
+// This is a explanatory definition file for the rouleaux language
+// Its goal is to explain basic syntax and no any language features
+//
+
+// As you can see, comments are C-like.
+// You can use this for a line comments
+/* Or this for a block comment */
+/*
+    block
+        comments
+            can
+                also
+                    span
+                        multiple
+                            lines
+*/
+
+// Variables are create like this:
+my_awesome_variable : int = 0;
+
+// You have the identifier on the left, followed by a colon(:) and then the type
+// You can then use an equal sign to assign a value to the variable immediately
+

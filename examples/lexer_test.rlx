@@ -1,0 +1,31 @@
+abc 123 . ! ?>< my_var
+  reallllyyyyyy_____looooonnnnggggg____iideentifierrrrr 131231.123123.123123
+
+    
+ 
+for if while do else null
+
+f
+or
+
+mfor rouleaux 1.2.3.4.5.6.7
+
+// my line comment
+variable_on_line_with_comment01234 // this line also has a variable on it!
+
+/* my block comment */
+
+/* 
+  my 
+    multiline
+      block
+        comment
+*/
+
+/* nested /* block comments */ are cool! */
+
+/* nested comments 
+  /* from multiple
+    lines */*/
+
+/* unclosed block comment
